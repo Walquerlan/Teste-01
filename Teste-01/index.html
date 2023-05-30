@@ -1,35 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Teste-01</title>
+    <html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Teste-01</title>
+
+<style>
+    header{
+        display: flex; justify-content: center;
+    }
+
+    body{
+        background-color: rgb(221, 247, 247);
+    }
+    
+    .one{
+        background-color: rgb(151, 232, 235);
+        margin: 10px;
+    }
+
+    .imagem{
+        display: flex; justify-content: center;
+    }
+
+    .two{
+        display: flex; justify-content: center;
+        color: rgb(109, 75, 11)
+    }
+    
+    .tema01{
+        background-color: rgb(192, 191, 191);
+        display: flex; justify-content: center;
+        margin: 10px;
+    }
+    
+    .tema02{
+        display: flex; justify-content: center;
+        
+    }
+    
+    .cores{
+        display: flex; justify-content: center;
+    }
+    
+    .cores02{
+        display: flex; justify-content: center;
+    }
+    
+    .Game{
+        background-color: cadetblue;
+        display: flex; justify-content: center;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .Nitendo{
+        color: brown; font-size: 02em;
+    }
+
+    .PlayStation{
+        color: blue; font-size: 02em;
+    }
+</style>
+
 </head>
-<body style="background-color: rgb(221, 247, 247);">
-<header style="background-color: rgb(151, 232, 235);">
-    <nav style="display: flex; justify-content: center;" >
-    <ul><h2>🌄Iaê Mundo!<br>Minha Primeira<br>Imersão Por Aqui.👋</h2></ul>
-    </nav>
-</header>
+<body>
 
-<nav style="display: flex; justify-content: center;">
-    <h2><em>Adicionando uma imagem.</em></h2>
-</nav>
-<nav style="display: flex; justify-content: center;">
-     <img src="imagen-500.jpg" alt="">
-</nav>
-<h3 style="display: flex; justify-content: center;"
-> Agora Vamos Adicionar Alguns Simbolos:
-<br>&beta; &omega; &alpha; &sigma; &delta; &cent; &euro; &real; &yen;
-&copy;</h3>
+<div class="one">
+    <header>
+    <div>
+        <ul><h2>🌄Iaê Mundo!<br>Minha Primeira<br>Imersão Por Aqui.👋</h2></ul>
+        <h2><em>Adicionando uma imagem.</em></h2>
+    </div>
+    </header>
+    
+    <div class="imagem">
+        <img src="imagen-500.jpg" alt="">
+    </div>
 
-<div style="background-color: rgb(192, 191, 191);">
-<h1 style="display: flex; justify-content: center;">
-<em>Adicionando Algumas cores✏️</em></h1>
-</div> 
-<div style="display: flex; justify-content: center;">
-    <ul style="list-style-type:square;">
+    <div class="two">
+    <h3>Agora Vamos Adicionar Alguns Simbolos:
+        <br>&gamma; &omega; &alpha; &sigma; &delta; &cent; &euro; &real; &yen;
+        &copy; &bcong; &caps; &dashv; &erarr; &Pfr; &half; &iff; &xnis; &wscr;
+        <br>&jcy; &kscr; &lang; &malt; &napE;; &oast; &par; &Qfr; &radic; &sc;
+        &there4; &ubrcy; &vartheta; &xfr; &zeta; &awint; &odiv; &ovbar; &percnt;</h3>
+    </div>
+    
+</div>
+
+    <div class="tema01">
+        <h1><em>Adicionando Algumas cores✏️</em></h1>
+    </div>
+
+<div class="cores">
+    <ul>
       <ol>
         <li><mark style="background-color: rgb(30, 114, 240);">Azul</mark></li>
         <li><mark style="background-color: green;">Verde</mark></li>
@@ -42,26 +107,25 @@
     </ul>
 </div>
         <hr>
-    <nav>
-        <h1 style="display: flex; justify-content: center;">
-        <em>My Top List</em></h1>
-       </nav>
-<div style="display: flex; justify-content: center;">
-<ul style="list-style-type: circle;">
-    <li><mark style="background-color: rgb(30, 114, 240);"><s>Azul</s></mark></li>
-    <li><mark style="background-color: gray;"><s>Cinza</s></mark></li>
-    <li><mark style="background-color: purple;"><s>Roxo</s></mark></li>
-</ul>
+    <div class="tema02">
+        <h1><em>My Top List</em></h1>
+    </div>
+<div class="cores02">
+    <ul>
+        <li><mark style="background-color: rgb(30, 114, 240);"><s>Azul</s></mark></li>
+        <li><mark style="background-color: gray;"><s>Cinza</s></mark></li>
+        <li><mark style="background-color: purple;"><s>Roxo</s></mark></li>
+    </ul>
 </div>
 
-<div style="background-color: cadetblue;">
-<h1 style="display: flex; justify-content: center;"
->Meus Games Preferidos🕹️</h1>
+<div class="Game">
+       <h1>Meus Games Preferidos🕹️</h1>
 </div>
+
 <div style="display: flex; justify-content: center;">
     <ol type="I">
        <ol>
-        <li><h2 style="color: brown; font-size: 02em;">Super Nitendo</h2></li>
+        <li><h2 class="Nitendo">Super Nitendo</h2></li>
        </ol>
         <li>Super Mario World</li>
         <li>Mario Kart</li>
@@ -71,18 +135,18 @@
         <li>Mortal Kombat</li>
     </ol>
         <hr>
-    <div style="display: flex; justify-content: center;">
-        <ol type="I">
-           <ol>
-            <li><h2 style="color: blue; font-size: 02em;">PlayStation 2</h2></li>
-           </ol>
-            <li>god of war 1,2</li>
-            <li>Naruto ultimate ninja storm 4,5</li>
-            <li>Rumble Racing</li>
-            <li>Guitar hero</li>
-            <li>Medal of honor</li>
+<div>
+    <ol type="I">
+        <ol>
+        <li><h2 class="PlayStation">PlayStation 2</h2></li>
         </ol>
-    </div>
+        <li>god of war 1,2</li>
+        <li>Naruto ultimate ninja storm 4,5</li>
+        <li>Rumble Racing</li>
+        <li>Guitar hero</li>
+        <li>Medal of honor</li>
+    </ol>
+</div>
       
 </body>
 </html>
